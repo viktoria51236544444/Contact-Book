@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="start">Contact Book</p>
+    <div class="block1">
+      <span>Enter the data</span>
+      <input class="task-input" type="text" placeholder="Фамилия" />
+      <input class="task-input" type="text" placeholder="Имя" />
+      <input class="task-input" type="text" placeholder="Контакт" />
+      <input class="task-input" type="text" placeholder="Фотография" />
+
+      <div class="field">
+        <button class="btn">Сохранить</button>
+        <ul class="task-list"></ul>
+      </div>
+      <div class="editModal">
+        <input class="inpEditLastName" type="text" />
+        <input class="inpEditName" type="text" />
+        <input class="inpEditPhone" type="text" />
+        <input class="inpEditImg" type="text" />
+
+        <button class="saveEdit">Внесите изменения</button>
+      </div>
+    </div>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

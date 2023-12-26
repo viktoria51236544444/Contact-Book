@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap");
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/vintage-pink-telephone-assortment_23-2148913963.jpg?w=1380&t=st=1703580880~exp=1703581480~hmac=1c2b2a5c6cb16aeb2bda1283bfe1b1a6b3cc4e2f3c8fb848597ec462957aee86");
+  background-size: cover;
+}
+span {
+  color: brown;
+  font-family: Sevillana;
+  font-size: 20px;
+}
+.btn {
+  color: brown;
+}
+.saveEdit {
+  color: brown;
+}
+.start {
+  color: brown;
+  font-family: Sevillana;
+  margin-top: 50px;
+  margin-left: 550px;
+  font-size: 50px;
+}
+.btnDelete {
+  color: blueviolet;
+  font-family: Sevillana;
+}
+.btnEdit {
+  color: brown;
+  font-family: Sevillana;
+}
+
+.block1 {
+  margin-left: 80px;
+}
+
+#img {
+  height: 100px;
+  width: 100px;
+}
+#form {
+  background-image: url("https://mir-oboev.ua/image/cache/catalog/oboi/3032-19_NL-540x540.jpg");
+  width: 200px;
+  height: 220px;
+}
